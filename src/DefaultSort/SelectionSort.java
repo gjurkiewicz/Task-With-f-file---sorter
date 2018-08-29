@@ -4,17 +4,17 @@ public class SelectionSort implements Sorter{
 
     @Override
     public void sortList() {
-        for (int i = 0; i <Data.numberList.size()-1 ; i++) {
+        for (int i = 0; i <Data.sortedNumberList.size()-1 ; i++) {
             int min = i;
 
-            for (int j = i+1; j < Data.numberList.size(); j++) {
+            for (int j = i+1; j < Data.sortedNumberList.size(); j++) {
 
-                if (Data.numberList.get(i)>Data.numberList.get(j)) {
+                if (Data.sortedNumberList.get(i)>Data.sortedNumberList.get(j)) {
                     min = j;
-                    int temp = Data.numberList.get(i);
-                    Data.numberList.set(i, Data.numberList.get(j));
-                    Data.numberList.set(j,temp);
-                    
+                    int temp = Data.sortedNumberList.get(i);
+                    Data.sortedNumberList.set(i, Data.sortedNumberList.get(j));
+                    Data.sortedNumberList.set(j,temp);
+
                 }
             }
         }
