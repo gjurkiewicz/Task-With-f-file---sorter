@@ -1,6 +1,6 @@
 package DefaultSort;
 
-public class BubbleSort implements Sorter {
+public class BubbleSort implements SorterInterface {
 
     @Override
     public void sortList() {

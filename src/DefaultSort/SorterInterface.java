@@ -2,7 +2,7 @@ package DefaultSort;
 
 import java.util.List;
 
-public interface Sorter {
+public interface SorterInterface {
     public void sortList();
 
 }

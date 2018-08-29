@@ -10,7 +10,7 @@ public class SortChange {
             System.out.println("Wykonano sortowanie przez wybieranie: ");
             new SelectionSort().sortList();
 
-        }else {System.out.println("W pierwszej lini pliku niema wskazania na rodzaj sortowania i lista nie została posortowana: ");
+        }else {System.out.println("W pierwszej lini pliku nie ma wskazania na rodzaj sortowania i lista nie została posortowana: ");
         }
     }
 }

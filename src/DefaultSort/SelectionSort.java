@@ -1,6 +1,6 @@
 package DefaultSort;
 
-public class SelectionSort implements Sorter{
+public class SelectionSort implements SorterInterface{
 
     @Override
     public void sortList() {
