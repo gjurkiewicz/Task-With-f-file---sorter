@@ -7,7 +7,7 @@ public class SortChange {
             new BubbleSort().sortList();
 
         }else if (Data.sortChange.get(0).equalsIgnoreCase("CHO")) {
-            System.out.println("Wykonano sortowanie przez wybieranie: ");
+            System.out.println("Wykonano sortowanie przez wybieranie:  ");
             new SelectionSort().sortList();
 
         }else {System.out.println("W pierwszej lini pliku nie ma wskazania na rodzaj sortowania i lista nie została posortowana: ");
