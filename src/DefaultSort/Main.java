@@ -8,6 +8,5 @@ public class Main {
         System.out.println(Data.numberList);
         System.out.println();
         SortChange.sortChange();
-        System.out.println(Data.numberList);
     }
 }
